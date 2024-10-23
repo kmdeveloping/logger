@@ -111,10 +111,10 @@
   resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.42.tgz"
   integrity sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==
 
-"@types/colors@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@types/colors/-/colors-1.2.1.tgz"
-  integrity sha512-7jNkpfN2lVO07nJ1RWzyMnNhH/I5N9iWuMPx9pedptxJ4MODf8rRV0lbJi6RakQ4sKQk231Fw4e2W9n3D7gZ3w==
+"@types/colors@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@types/colors/-/colors-1.2.4.tgz#f0c82736cda074f908c724c7846886a5de962e15"
+  integrity sha512-oSQxEVIDcYisAzWLa+wr50GSIPu8ml4PsKNJzgrDX3SmEHVBBqbaUurqsUceFauNlCRxNtENKkQm3yOe3m3nfg==
   dependencies:
     colors "*"
 
