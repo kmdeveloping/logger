@@ -108,7 +108,7 @@
 
 "@types/bluebird@*":
   version "3.5.42"
-  resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.42.tgz"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.42.tgz#7ec05f1ce9986d920313c1377a5662b1b563d366"
   integrity sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A==
 
 "@types/colors@^1.2.1":
@@ -118,10 +118,10 @@
   dependencies:
     colors "*"
 
-"@types/fs-extra-promise@^1.0.10":
-  version "1.0.13"
-  resolved "https://registry.npmjs.org/@types/fs-extra-promise/-/fs-extra-promise-1.0.13.tgz"
-  integrity sha512-h8u/S9jhzhM8QkgBgoa4pT2MJNl3ofe1j5hbuCJVIyzkUuexqT1Ui8nSxGBraRqQx0QX07Z1UAOiQays+CrSJA==
+"@types/fs-extra-promise@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra-promise/-/fs-extra-promise-1.0.14.tgz#38fa7ceb9d982ecb9ad722885da502875df8e766"
+  integrity sha512-bJ9o38xaF12CskNQ216jhEW2UHiEMPpONLDkQakkmcSmdnTvfbJKEPMqw4HNPqBG7MkwDcp3ch6dxdHwerfjDw==
   dependencies:
     "@types/bluebird" "*"
     "@types/fs-extra" "^4"
@@ -129,7 +129,7 @@
 
 "@types/fs-extra@^4":
   version "4.0.15"
-  resolved "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-4.0.15.tgz"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-4.0.15.tgz#82d70b4a2e5e3dd17474ce9e8fe951a03aeddd31"
   integrity sha512-zU/EU2kZ1tv+p4pswQLntA7dFQq84wXrSCfmLjZvMbLjf4N46cPOWHg+WKfc27YnEOQ0chVFlBui55HRsvzHPA==
   dependencies:
     "@types/node" "*"
@@ -154,7 +154,14 @@
   resolved "https://registry.npmjs.org/@types/node-emoji/-/node-emoji-1.8.2.tgz"
   integrity sha512-PfF1qL/9veo8BSHLV84C9ORNr3lHSlnWJ6yU8OdNufoftajeWHTLVbGHvp2B7e7DPDS9gMs6cfeSsqo5rqSitg==
 
-"@types/node@*", "@types/node@^20.0.0":
+"@types/node@*":
+  version "26.4.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.4.1.tgz#3d8dc80515894958448ee266cf5d6bc3e5205bd5"
+  integrity sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==
+  dependencies:
+    undici-types "~8.3.0"
+
+"@types/node@^20.0.0":
   version "20.10.5"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.10.5.tgz"
   integrity sha512-nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==
@@ -489,7 +496,7 @@ fs.realpath@^1.0.0:
 
 fsevents@~2.3.2:
   version "2.3.3"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
@@ -942,8 +949,13 @@ undefsafe@^2.0.5:
 
 undici-types@~5.26.4:
   version "5.26.5"
-  resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
+
+undici-types@~8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.3.0.tgz#44e9fc9f3244648cdea35e4f9bb2d681e9410809"
+  integrity sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==
 
 unicode-emoji-modifier-base@^1.0.0:
   version "1.0.0"
